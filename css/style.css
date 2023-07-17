@@ -1,0 +1,174 @@
+:root {
+  --brand-cl: #4d5ae5;
+  --title-cl: #2e2f42;
+  --white-cl: #fff;
+  --Light-cl: #f4f4fd;
+  --text-cl: #434455;
+  --hover-cl: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-cl);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/* -------------Header----------------- */
+
+.header-link {
+  color: var(--title-cl);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo {
+  color: var(--brand-cl);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-address-link {
+  color: var(--text-cl);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-address-link:hover {
+  color: var(--hover-cl);
+}
+.header-item-link {
+  color: var(--title-cl2);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-item-link:hover,
+.header-item-link:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--hover-cl);
+  color: var(--hover-cl);
+}
+
+/* -------------Order----------------- */
+
+.order {
+  background-color: var(--title-cl);
+}
+.order-title {
+  color: var(--white-cl);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.order-btn {
+  background: var(--brand-cl);
+  color: var(--white-cl);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.order-btn:hover,
+.order-btn:focus {
+  background: var(--hover-cl);
+}
+
+/* -------------Strengths----------------- */
+
+.strengths-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.strengths-item-text {
+  color: var(--text-cl);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* -------------Products----------------- */
+
+.products-title {
+  color: var(--title-cl);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* -------------Team----------------- */
+
+.team {
+  background-color: var(--Light-cl);
+}
+.team-title {
+  color: var(--title-cl);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-item-title {
+  color: var(--title-cl);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-item-text {
+  color: var(--text-cl);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* -------------Footer----------------- */
+
+.footer {
+  background: var(--title-cl);
+}
+.footer-link {
+  color: var(--Light-cl);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: var(--Light-cl);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
