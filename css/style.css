@@ -133,7 +133,7 @@ body {
 .team {
   background-color: var(--Light-cl);
 }
-.team-list {
+.team-item {
   background-color: var(--white-cl);
 }
 .team-title {
