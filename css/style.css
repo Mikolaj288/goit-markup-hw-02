@@ -55,7 +55,7 @@ body {
   color: var(--hover-cl);
 }
 .header-item-link {
-  color: var(--title-cl2);
+  color: var(--title-cl);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -99,10 +99,11 @@ body {
 
 /* -------------Strengths----------------- */
 
-.stengths-title{
+.stengths-title {
   color: var(--title-cl);
 }
 .strengths-item-title {
+  color: var(--title-cl);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -131,6 +132,9 @@ body {
 
 .team {
   background-color: var(--Light-cl);
+}
+.team-list {
+  background-color: var(--white-cl);
 }
 .team-title {
   color: var(--title-cl);
