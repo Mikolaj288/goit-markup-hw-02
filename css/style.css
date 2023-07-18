@@ -10,6 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--white-cl);
+  color: #434455;
 }
 .link {
   text-decoration: none;
@@ -19,23 +20,26 @@ body {
 }
 /* -------------Header----------------- */
 
-.header-link {
-  color: var(--title-cl);
-  font-family: Raleway;
+.logo {
+  color: var(--brand-cl);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo {
-  color: var(--brand-cl);
-  font-family: Raleway;
+.header-studio {
+  color: var(--title-cl);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.header-address {
+  font-style: normal;
 }
 .header-address-link {
   color: var(--text-cl);
@@ -46,12 +50,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-address-link:hover {
+.header-address-link:hover,
+.header-address-link:focus {
   color: var(--hover-cl);
 }
 .header-item-link {
   color: var(--title-cl2);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -81,11 +85,12 @@ body {
 .order-btn {
   background: var(--brand-cl);
   color: var(--white-cl);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .order-btn:hover,
 .order-btn:focus {
@@ -94,6 +99,9 @@ body {
 
 /* -------------Strengths----------------- */
 
+.stengths-title{
+  color: var(--title-cl);
+}
 .strengths-item-title {
   font-size: 20px;
   font-weight: 500;
@@ -155,9 +163,9 @@ body {
 .footer {
   background: var(--title-cl);
 }
-.footer-link {
+.footer-studio {
   color: var(--Light-cl);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -166,7 +174,6 @@ body {
 }
 .footer-text {
   color: var(--Light-cl);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
