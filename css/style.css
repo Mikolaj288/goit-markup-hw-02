@@ -112,18 +112,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.hero-list-card-images{
-  
-  width: 360px;
-  height: 300px;
-}
 .header-navigation-link:hover,
 .header-navigation-link:focus {
   text-decoration: underline;
   text-decoration-color: var(--hover-cl);
   color: var(--hover-cl);
 }
-
 
 /* -------------Order----------------- */
 
