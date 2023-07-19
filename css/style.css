@@ -121,10 +121,10 @@ body {
 
 /* -------------Order----------------- */
 
-.hero-hero {
+.hero-hello {
   background-color: var(--body-cl);
 }
-.hero-hero-title {
+.hero-hello-title {
   color: var(--white-cl);
   text-align: center;
   font-size: 56px;
@@ -132,7 +132,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.hero-hero-btn {
+.hero-hello-btn {
   background: var(--brand-cl);
   color: var(--white-cl);
   font-family: "Roboto", sans-serif;
@@ -142,8 +142,8 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.hero-hero-btn:hover,
-.hero-hero-btn:focus {
+.hero-hello-btn:hover,
+.hero-hello-btn:focus {
   background: var(--hover-cl);
 }
 
